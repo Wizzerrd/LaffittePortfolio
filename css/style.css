@@ -39,7 +39,14 @@ Description: Portfolio/CV/Resume HTML Template
 /*=================================================================*/
 
 .headshot {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
   border-radius: 12px;
+}
+
+.skiing{
+  object-position: left;
 }
 
 .stats {
