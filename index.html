@@ -478,15 +478,6 @@
 				<div class="col-md-3 col-6">
 					<div class="client-item">
 						<div class="inner">
-							<img width="100px" src="images/logos/Axios_logo_(2020).svg"  
-							alt="Axios" />
-						</div>
-						<span class="logo-subtitle">Axios</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-6">
-					<div class="client-item">
-						<div class="inner">
 							<img width="120px" src="images/logos/mongoose_logo.png" alt="Mongoose" />
 						</div>
 						<span class="logo-subtitle">Mongoose</span>
@@ -555,6 +546,33 @@
 						<span class="logo-subtitle">UNIX</span>
 					</div>
 				</div>
+				<div class="col-md-3 col-6">
+					<div class="client-item">
+						<div class="inner">
+							<img width="80px" src="images/logos/AWS_Logo.webp"  
+							alt="AWS" />
+						</div>
+						<span class="logo-subtitle">AWS</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-6">
+					<div class="client-item">
+						<div class="inner">
+							<img width="80px" src="images/logos/Amazon-S3-Logo.svg"  
+							alt="S3" />
+						</div>
+						<span class="logo-subtitle">S3</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-6">
+					<div class="client-item">
+						<div class="inner">
+							<img width="80px" src="images/logos/Godot_Logo.svg"  
+							alt="Godot" />
+						</div>
+						<span class="logo-subtitle">Godot</span>
+					</div>
+				</div>
 
 		</div>
 		
@@ -576,31 +594,25 @@
 			<!-- portfolio filter (desktop) -->
 			<ul class="portfolio-filter list-inline wow fadeInUp">
 				<li class="current list-inline-item" data-filter="*">All Projects</li>
-				<li class="list-inline-item" data-filter=".mern">MERN Stack</li>
-				<li class="list-inline-item" data-filter=".full-stack">Full-Stack</li>
-				<li class="list-inline-item" data-filter=".ruby-on-rails">Ruby on Rails</li>
-				<li class="list-inline-item" data-filter=".vanilla-js">Vanilla JavaScript</li>
-				<li class="list-inline-item" data-filter=".react-js">React.js</li>
+				<li class="list-inline-item" data-filter=".web-dev">Web Development</li>
+				<li class="list-inline-item" data-filter=".game-dev">Game Development</li>
+
 			</ul>
 			
 			<!-- portfolio filter (mobile) -->
 			<div class="pf-filter-wrapper">
 				<select class="portfolio-filter-mobile">
 					<option value="*">All Projects</option>
-					<option value=".mern">MERN Stack</option>
-					<option value=".full-stack">Full-Stack</option>
-					<option value=".ruby-on-rails">Ruby on Rails</option>
-					<option value=".vanilla-js">Vanilla JavaScript</option>
-					<option value=".react-js">React.js</option>
+					<option value=".web-dev">Web Development</option>
+					<option value=".full-stack">Game Development</option>
 				</select>
 			</div>
 			
 			<!-- portolio wrapper -->
 			<div class="row portfolio-wrapper">
-
 				<!-- TripPlanner -->
-				<div class="col-md-4 col-sm-6 grid-item mern full-stack react-js design">
-					<a href="#codemark-dialog" class="work-content">
+				<div class="col-md-4 col-sm-6 grid-item web-dev">
+					<a href="#planner-dialog" class="work-content">
 						<div class="portfolio-item rounded shadow-dark">
 							<div class="details">
 								<span class="term">MERN Stack</span>
@@ -611,43 +623,52 @@
 								</span>
 							</div>
 							<div class="thumb">
-								<img src="images/projects/tripplannersplash.PNG" alt="MERN Stack TripPlanner Project" />
+								<img src="images/projects/tripplanner/tripplannersplash.PNG" alt="MERN Stack TripPlanner Project" />
 								<div class="mask"></div>
 							</div>
 						</div>
 					</a>
-					<div id="codemark-dialog" class="white-popup zoom-anim-dialog mfp-hide">
+					<div id="planner-dialog" class="white-popup zoom-anim-dialog mfp-hide">
 						<h1>TripPlanner</h1>
 						<h5>React.js, Redux, MongoDB, Express, Mongoose, Node.js, Webpack, HTML5, CSS3</h4>
+						<img src="images/projects/tripplanner/tripplannersplash.PNG" alt="MERN Stack TripPlanner Project" />
 						<!-- <div class="video-player" style="padding:72.72% 0 0 0;position:relative;">
 							<iframe src="https://player.vimeo.com/video/723804358?h=724471dd3b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&autopause=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CodeMark Live Demo: Creating a New Note"></iframe>
 						</div>
 						<script src="https://player.vimeo.com/api/player.js"></script> -->
 						<h3>Itineraries around the world</h3>
-						<p>This app streamlines the trip planning process. Just select your destination and travel dates, and it will provide you with curated itineraries created by fellow users. You have the flexibility to personalize these plans to match your preferences and schedule. Plus, you can save your customized itinerary and effortlessly share it with your travel companions. Get ready to organize remarkable journeys with ease!</p>
+						<p>This app streamlines the trip planning process. Just select your destination and travel dates, 
+							and it will provide you with curated itineraries created by fellow users. 
+							You have the flexibility to personalize these plans to match your preferences and schedule. 
+							Plus, you can save your customized itinerary and effortlessly share it with your travel companions. 
+							Get ready to organize remarkable journeys with ease!</p>
 						<a href="https://tripplanner-mern-1f758b15cb93.herokuapp.com/" class="btn btn-default" target="_blank">View live site</a>
 
 						<div class="spacer" data-height="64"></div>
-						<img src="images/projects/tripplannerlist.PNG" alt="Itinerary List" />
+						<img src="images/projects/tripplanner/tripplannerlist.PNG" alt="Itinerary List" />
 						<div class="spacer" data-height="64"></div>
 						
 						<ul class="project-bullets">
 							<li>
-								Established the project framework using React for the frontend and Express for the backend database to allow the team to begin designing components in parallel. Incorporated Git workflow to manage teamwork.
+								Established the project framework using React for the frontend and Express for the backend database to allow the team to 
+								begin designing components in parallel. Incorporated Git workflow to manage teamwork.
 							</li>
 							<li>
-								Designed a document-based database using MongoDB with Mongoose models in the Express server to allow creation, reading, updating, and destroying (CRUD) of user-made itineraries with Google Places API generated activities.
+								Designed a document-based database using MongoDB with Mongoose models in the Express server to allow creation, 
+								reading, updating, and destroying (CRUD) of user-made itineraries with Google Places API generated activities.
 							</li>
 							<li>
-								Integrated Express routing, and Redux with Thunk to fetch and manipulate data in the database from the frontend components designed by the team.
+								Integrated Express routing, and Redux with Thunk to fetch and manipulate data in the database from the frontend components 
+								designed by the team.
 							</li>
 							<li>
-								Implemented user auth with Express, Passport, Mongoose models, and BCrypt to follow best practices for safely logging users in and out and storing their information properly.
+								Implemented user auth with Express, Passport, Mongoose models, and BCrypt to follow best practices for safely logging users 
+								in and out and storing their information properly.
 							</li>
 						</ul>
 
 						<div class="spacer" data-height="64"></div>
-						<img class="inline-mockup-img" src="images/projects/tripplannermap.PNG" alt="Itinerary Map" >
+						<img class="inline-mockup-img" src="images/projects/tripplanner/tripplannermap.PNG" alt="Itinerary Map" >
 						<div class="spacer" data-height="64"></div>
 
 						<a href="https://tripplanner-mern-1f758b15cb93.herokuapp.com/" class="btn btn-default" target="_blank">View live site</a>
@@ -657,10 +678,10 @@
 
 				<!-- DiscordClone -->
 				<div class="col-md-4 col-sm-6 grid-item ruby-on-rails react-js full-stack design">
-					<a href="#fsp-5000px-dialog" class="work-content">
+					<a href="#clone-dialog" class="work-content">
 						<div class="portfolio-item rounded shadow-dark">
 							<div class="details">
-								<span class="term">Full-Stack</span>
+								<span class="term">React/Rails</span>
 								<h4 class="title">Discord Clone</h4>
 								<span class="view-details-button">
 									View project details
@@ -668,45 +689,56 @@
 								</span>
 							</div>
 							<div class="thumb">
-								<img src="images/projects/clonesplash.PNG" alt="Discord Clone" />
+								<img src="images/projects/discordclone/clonesplash.PNG" alt="Discord Clone" />
 								<div class="mask"></div>
 							</div>
 						</div>
 					</a>
-					<div id="fsp-5000px-dialog" class="white-popup zoom-anim-dialog mfp-hide">
+					<div id="clone-dialog" class="white-popup zoom-anim-dialog mfp-hide">
 						<h1>Full-Stack Discord Clone</h1>
 						<h5>
 							Ruby on Rails, PostgreSQL, React.js, Redux, JavaScript ES6, Webpack, HTML5, CSS3
 						</h5>
+						<img src="images/projects/discordclone/clonesplash.PNG" alt="Discord Clone" />
+						<div class="spacer" data-height="32"></div>
+
 						<!-- <div style="padding:75% 0 0 0;position:relative;"><iframe class="video-player" src="https://player.vimeo.com/video/723792131?h=8b184e5af4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&autopause=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="5000px_drag-n-drop.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
-						<p>This is a clone of the popular messaging app Discord built using React/Rails. Full user auth is implemented, meaning users can sign up, sign in, and sign out. Once signed in, Users can invite one another to be friends, as well as remove friends once they're added. Users can create servers, in which they can create messaging channels. Server and channel names can be updated, and servers and channels can be deleted. Users can invite their friends into created servers and send instant-messages with WebSocket functionality. </p>
+						<p>This is a clone of the popular messaging app Discord built using React/Rails. Full user auth is implemented, meaning users can sign up, 
+							sign in, and sign out. Once signed in, Users can invite one another to be friends, as well as remove friends once they're added. 
+							Users can create servers, in which they can create messaging channels. Server and channel names can be updated, and servers and 
+							channels can be deleted. Users can invite their friends into created servers and send instant-messages with WebSocket functionality. </p>
 						<a href="https://laffitte-discord-clone.onrender.com/" class="btn btn-default" target="_blank">View live site</a>
 
 						<div class="spacer" data-height="32"></div>
-						<img src="images/projects/clonemain.PNG" alt="Discord Messaging" />
+						<img src="images/projects/discordclone/clonemain.PNG" alt="Discord Messaging" />
 						<div class="spacer" data-height="32"></div>
 
 						<ul class="project-bullets">
 							<li>
-								Devised a custom relational database schema with ActiveRecord and deployed a backend Rails server to store and serve custom user and message data from a PostgreSQL database.
+								Devised a custom relational database schema with ActiveRecord and deployed a backend Rails server to 
+								store and serve custom user and message data from a PostgreSQL database.
 							</li>
 							<li>
-								Built an API with Rails Routing to allow users to fetch, store, and delete data from the database, and included WebSocket functionality for instant data transmission of messages.
+								Built an API with Rails Routing to allow users to fetch, store, and delete data from the database, 
+								and included WebSocket functionality for instant data transmission of messages.
 							</li>
 							<li>
-								Incorporated a React frontend with responsive CSS styling  for smooth navigation and for accessing custom API endpoints with Redux to persist fetched information and Thunk to interact with the database.
+								Incorporated a React frontend with responsive CSS styling  for smooth navigation and for accessing 
+								custom API endpoints with Redux to persist fetched information and Thunk to interact with the database.
 							</li>
 							<li>
-								Streamlined messaging using Websockets to allow users subscribed to certain channels to immediately be broadcast new database entries
+								Streamlined messaging using Websockets to allow users subscribed to certain channels to immediately be 
+								broadcast new database entries
 							</li>
 							<li>
-								Implemented custom user auth with Rails to allow users to safely log in and out with unique credentials. Used the BCrypt gem to prevent the storage of plain-text passwords in the database as per industry standard.
+								Implemented custom user auth with Rails to allow users to safely log in and out with unique credentials. 
+								Used the BCrypt gem to prevent the storage of plain-text passwords in the database as per industry standard.
 							</li>
 
 						</ul>
 
 						<div class="spacer" data-height="32"></div>
-						<img src="images/projects/clonefriends.PNG" alt="Discord Friends" />
+						<img src="images/projects/discordclone/clonefriends.PNG" alt="Discord Friends" />
 						<div class="spacer" data-height="32"></div>
 
 						<a href="https://laffitte-discord-clone.onrender.com/" class="btn btn-default" target="_blank">View live site</a>
@@ -715,8 +747,8 @@
 				</div>
 
 				<!-- Emergent Quanta -->
-				<div class="col-md-4 col-sm-6 grid-item vanilla-js design">
-					<a href="#animation-academy-dialog" class="work-content">
+				<div class="col-md-4 col-sm-6 grid-item web-dev game-dev">
+					<a href="#quanta-dialog" class="work-content">
 						<div class="portfolio-item rounded shadow-dark">
 							<div class="details">
 								<span class="term">Vanilla JavaScript</span>
@@ -727,23 +759,35 @@
 								</span>
 							</div>
 							<div class="thumb">
-								<img src="images/projects/quantamain.PNG" alt="Emergent Quanta" />
+								<img src="images/projects/quanta/quantamain.PNG" alt="Emergent Quanta" />
 								<div class="mask"></div>
 							</div>
 						</div>
 					</a>
-					<div id="animation-academy-dialog" class="white-popup zoom-anim-dialog mfp-hide">
+					<div id="quanta-dialog" class="white-popup zoom-anim-dialog mfp-hide">
 						<h1>Emergent Quanta</h1>
 						<h5>Vanilla JavaScript ES6, HTML5, SASS, Webpack, Node.js</h5>
+						<img src="images/projects/quanta/quantamain.PNG" alt="Emergent Quanta" />
 						<!-- <div style="padding:73.58% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/723799694?h=ab681b6421&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&autopause=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Emergent Quanta Live Demo: Level 3"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
 						<h2>Fun with Physics</h2>
-						<p>The point of a simulation such as this is to show how simple rules can give rise to complex behaviors. Emergent Quanta is a browser-based emergent-behavior particle simulation using the Matter-JS library to simulate the particles as rigid-bodies. Introducting birth and death will allow the simulation to explore concepts of sustainable systems and ecoystems. A fixed number of particles is assigned at the start of the simulation as with most emergent-behavior particle simulations, and the number of particles can fluctuate depending on interactions between existing particles. A user can assign an arbitrary number of types of quanta, whose properties can be assigned. The basic properties include attraction and repulsion in relation to other types of quanta. As well as these basic physical properties the quanta will also have an opportunity to interact with one another upon a collision, absorbing or granting energy in the vector of the collision, destroying or being destroyed by the collision, or having the ability to birth new quanta of a specified type in the collision. The user will have access to controls for all of these properties as well as global properties like a toggle for boundary-wrapping or fixed directional forces. The simulation renders in an HTML canvas element that is created by the matter-js engine.</p>
+						<p>The point of a simulation such as this is to show how simple rules can give rise to complex behaviors. 
+							Emergent Quanta is a browser-based emergent-behavior particle simulation using the Matter-JS library to simulate the particles as 
+							rigid-bodies. Introducting birth and death will allow the simulation to explore concepts of sustainable systems and ecoystems. 
+							A fixed number of particles is assigned at the start of the simulation as with most emergent-behavior particle simulations, 
+							and the number of particles can fluctuate depending on interactions between existing particles. A user can assign an arbitrary number 
+							of types of quanta, whose properties can be assigned. The basic properties include attraction and repulsion in relation to other types of 
+							quanta. As well as these basic physical properties the quanta will also have an opportunity to interact with one another upon a collision, 
+							absorbing or granting energy in the vector of the collision, destroying or being destroyed by the collision, or having the ability to birth 
+							new quanta of a specified type in the collision. The user will have access to controls for all of these properties as well as global 
+							properties like a toggle for boundary-wrapping or fixed directional forces. The simulation renders in an HTML canvas element that is 
+							created by the matter-js engine.</p>
 
-						<img src="images/projects/quantainst.PNG" alt="Emergent Quanta Instructions" />
+						<img src="images/projects/quanta/quantainst.PNG" alt="Emergent Quanta Instructions" />
 
 						<div class="spacer" data-height="20"></div>
 						<ul class="project-bullets">
-							<li>Developed a particle simulation using Javascript and the matter-js rigid body library as an exploration of the capabilities of vanilla javascript in a single-page application
+							<li>Developed a particle simulation using Javascript and the matter-js rigid body 
+								library as an exploration of the capabilities of vanilla javascript in a single-page application
 							</li>
 							
 							<li>
@@ -757,7 +801,61 @@
 						<a href="https://github.com/Wizzerrd/jsProjectLuis/" class="btn btn-default" target="_blank">GitHub Repo</a>
 					</div>
 				</div>
-				
+								<!-- Necromancer -->
+				<!-- Game Design Document Link -->
+				<!-- https://docs.google.com/document/d/15BLQ4FembxVg97er87V9k2UqzXOJPd6HIL8ma7R9tVU/edit?usp=sharing -->
+				<div class="col-md-4 col-sm-6 grid-item game-dev">
+					<a href="#necromancer-dialog" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Godot</span>
+								<h4 class="title">Necromancer</h4>
+								<span class="view-details-button">
+									View project details
+									<i class="small icon-arrow-right"></i>
+								</span>
+							</div>
+							<div class="thumb">
+								<img src="images/projects/necromancer/menu.PNG" alt="Necromancer-Menu" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="necromancer-dialog" class="white-popup zoom-anim-dialog mfp-hide">
+						<h1>Necromancer</h1>
+						<h5>Godot GDScript Aseprite Audacity</h5>
+						<!-- <div style="padding:73.58% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/723799694?h=ab681b6421&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&autopause=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Emergent Quanta Live Demo: Level 3"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
+						<h2>Submission to Pirate Software Game Jam 14</h2>
+						<p>
+							Necromancer was a project a team led by me developed in two weeks. I built the game in Godot 4.2, delivering a 
+							playable Alpha version to playtesters in one week. I then coordinated artists, musicians, and playtesters to
+							finalize a fair and balanced minimum viable product that we were proud to submit to the Game Jam.
+						</p>
+						<p>Necromancer is a top-down action roguelike, primarily defined by its reverse bullet hell nature. 
+							The goal of the game is to survive as long as possible while the player seeks to scale their power to match the ever-growing power 
+							of the hordes that continuously barrage them.
+						</p>
+						<img src="images/projects/necromancer/gameplay.PNG" alt="Necromancer-Gameplay" />
+
+						<div class="spacer" data-height="20"></div>
+						<ul class="project-bullets">
+							<li>
+								Led and coordinated a team to deliver a minimum viable product on a strict deadline.
+							</li>							
+							<li>
+								Conceptualized and executed a vision employing newly learned technologies and algorithmic techniques.
+							</li>
+							<li>
+								Enaged community interaction, marketing the project and generating 644 views, 5,109 impressions, 341 browser plays, and 18 downloads over 10 days.
+							</li>
+						</ul>
+						<a href="https://wizzerrd.itch.io/necromancer" class="btn btn-default" target="_blank">View live site</a>
+						<a href="https://docs.google.com/document/d/15BLQ4FembxVg97er87V9k2UqzXOJPd6HIL8ma7R9tVU/edit?usp=sharing" class="btn btn-default" target="_blank">Game Design Document</a>
+					</div>
+				</div>
+
+
+
 
 			</div>
 		</div>
